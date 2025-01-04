@@ -8,15 +8,15 @@ Here is a list of software and themes I am using for my configuration.
 
 ### Themes
 
-- **Gnome**: Adwaita
-- **GTK3**: Adw-Gtk3-Dark
-- **GTK4**: Adwaita
-- **Cursor**: Breeze Light
-- **Icons**: Papirus Dark
-- **UI Font**: Roboto
-- **Monospace Font**: Berkeley Mono
-- **Emoji Font**: Twemoji
-- **Other Fonts**: Win10 Fonts
+- **Gnome**: [Adwaita](https://archlinux.org/packages/extra/x86_64/libadwaita/)
+- **GTK3**: [Adw-Gtk3-Dark](https://archlinux.org/packages/extra/any/adw-gtk-theme/)
+- **GTK4**: [Adwaita](https://archlinux.org/packages/extra/x86_64/libadwaita/)
+- **Cursor**: [Breeze Light](https://aur.archlinux.org/packages/xcursor-breeze)
+- **Icons**: [Papirus Dark](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme)
+- **UI Font**: [Roboto](https://fonts.google.com/specimen/Roboto)
+- **Monospace Font**: [Berkeley Mono](https://usgraphics.com/products/berkeley-mono)
+- **Emoji Font**: [Twemoji](https://aur.archlinux.org/packages/ttf-twemoji)
+- **Other Fonts**: [Win10 Fonts](https://aur.archlinux.org/packages/ttf-win10)
 - **Terminal**: [Verminal](https://github.com/gielcobben/verminal)
 - **Firefox**: [Firefox Gnome](https://github.com/rafaelmardojai/firefox-gnome-theme)
 
