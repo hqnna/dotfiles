@@ -13,3 +13,4 @@ This file contains a list of themes for the software I use.
 - **Other Fonts**: [Win10 Fonts](https://aur.archlinux.org/packages/ttf-win10)
 - **Terminal**: [Verminal](https://github.com/gielcobben/verminal)
 - **Firefox**: [Firefox Gnome](https://github.com/rafaelmardojai/firefox-gnome-theme)
+- **rEFInd**: [refind-theme-dark](https://github.com/samuelmeuli/refind-theme-dark)
