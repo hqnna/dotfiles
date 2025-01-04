@@ -1,0 +1,35 @@
+[user]
+	name = hanna
+	email = hanna@hanna.lol
+	signingkey = F47491837959F4D2
+[pull]
+	rebase = true
+[push]
+	default = simple
+[init]
+	defaultBranch = main
+[rerere]
+	enabled = true
+[submodule]
+	recurse = true
+[core]
+	autocrlf = false
+	editor = helix
+[fetch]
+	prune = true
+[commit]
+	gpgsign = true
+[alias]
+	co = commit
+	pu = push
+	pl = pull
+	rt = remote
+	tg = tag
+	st = stash
+	rb = rebase
+	rs = reset
+	cl = clone
+	cr = clone --recursive
+	pa = push --atomic
+	rbi = rebase --interactive
+	sc = clone --depth=1

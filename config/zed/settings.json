@@ -1,0 +1,32 @@
+{
+  "theme": "JetBrains New Dark",
+  "base_keymap": "VSCode",
+  "features": { "inline_completion_provider": "none" },
+  "buffer_font_family": "Berkeley Mono",
+  "buffer_font_size": 12,
+  "buffer_line_height": { "custom": 1.5 },
+  "ui_font_family": "Roboto",
+  "ui_font_size": 14,
+  "unnecessary_code_fade": 0.5,
+  "restore_on_startup": "last_session",
+  "when_closing_with_no_tabs": "close_window",
+  "cursor_shape": "bar",
+  "wrap_guides": [80],
+  "toolbar": { "breadcrumbs": false, "quick_actions": false },
+  "scroll_beyond_last_line": "off",
+  "search": { "regex": true },
+  "collaboration_panel": { "button": false },
+  "chat_panel": { "button": false },
+  "assistant": { "version": "2", "button": false },
+  "show_call_status_icon": false,
+  "autosave": "on_focus_change",
+  "soft_wrap": "none",
+  "telemetry": { "metrics": false },
+  "auto_update": false,
+  "terminal": {
+    "font_family": "Berkeley Mono",
+    "font_fallbacks": ["Symbols Nerd Font"],
+    "line_height": "standard",
+    "font_size": 12
+  }
+}

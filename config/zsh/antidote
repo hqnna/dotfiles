@@ -1,0 +1,10 @@
+#!/bin/zsh
+
+# Download Antidote If Necessary
+ANTIDOTE_HOME="$XDG_DATA_HOME/antidote"
+ANTIDOTE_REPO="https://github.com/mattmc3/antidote"
+[ ! -d "$ANTIDOTE_HOME" ] && git clone --depth=1 "$ANTIDOTE_REPO" "$ANTIDOTE_HOME"
+
+# Source Antidote and Load Plugins
+source "$XDG_DATA_HOME/antidote/antidote.zsh"
+antidote load "$XDG_CONFIG_HOME/zsh/plugins.list"

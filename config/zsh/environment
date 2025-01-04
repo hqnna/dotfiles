@@ -1,0 +1,26 @@
+#!/bin/zsh
+
+# XDG Standard Directories
+export XDG_DATA_HOME="$HOME/.local/share"
+export XDG_STATE_HOME="$HOME/.local/state"
+export XDG_CONFIG_HOME="$HOME/.config"
+export XDG_CACHE_HOME="$HOME/.cache"
+
+# Software Directory Paths
+export CUDA_CACHE_PATH="$XDG_CACHE_HOME/nv"
+export GNUPGHOME="$XDG_DATA_HOME/gnupg"
+
+# Path Environment Variable
+export PATH="$PATH:$HOME/.local/bin"
+
+# Command Aliases
+alias paru="paru --color=always"
+alias hx="helix"
+alias cat="bat"
+alias ls="lsd"
+
+# History Configuration
+setopt SHARE_HISTORY
+HISTFILE="$XDG_STATE_HOME/zsh/history"
+HISTSIZE=10000
+SAVEHIST=1000

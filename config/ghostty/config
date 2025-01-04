@@ -1,0 +1,44 @@
+font-family = Berkeley Mono
+font-feature = -calt
+font-feature = -liga
+font-feature = -dlig
+font-size = 10
+
+cursor-style = bar
+scrollback-limit = 10000
+background-opacity = 0.95
+window-theme = system
+window-padding-x = 10
+window-padding-y = 10
+resize-overlay = never
+
+gtk-single-instance = true
+confirm-close-surface = false
+clipboard-write = allow
+clipboard-read = ask
+
+adjust-underline-thickness = -50%
+adjust-strikethrough-thickness = -50%
+adjust-overline-thickness = -50%
+
+selection-background = 0095ff
+selection-foreground = ffffff
+cursor-color = 0095ff
+background = 000000
+foreground = ffffff
+palette = 0=000000
+palette = 1=ff3b30
+palette = 2=4cd964
+palette = 3=ffcc00
+palette = 4=0095ff
+palette = 5=ff2d55
+palette = 6=5ac8fa
+palette = 7=ffffff
+palette = 8=686868
+palette = 9=ff3b30
+palette = 10=4cd964
+palette = 11=ffcc00
+palette = 12=0095ff
+palette = 13=ff2d55
+palette = 14=5ac8fa
+palette = 15=ffffff
