@@ -1,4 +1,4 @@
-### Software
+# Software
 
 This file contains a list of the software I use, even ones unrelated to ricing.
 
