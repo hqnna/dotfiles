@@ -1,6 +1,6 @@
 Dotfiles
-![license](https://img.shields.io/github/license/hqnna/dotfiles?style=flat-square)
-![commit](https://img.shields.io/github/last-commit/hqnna/dotfiles?style=flat-square)
+![license](https://img.shields.io/github/license/hqnna/dotfiles?style=flat)
+![commit](https://img.shields.io/github/last-commit/hqnna/dotfiles?style=flat)
 ===============================================================================
 
 This repository contains the configuration files for my Arch Linux setup.
