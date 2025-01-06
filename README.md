@@ -9,4 +9,4 @@ current [software](docs/SOFTWARE.md).
  
 ## Screenshot
 
-![desktop screenshot](assets/desktop.png)
+![desktop screenshot](images/desktop.png)
