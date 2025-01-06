@@ -7,8 +7,8 @@ This repository contains the configuration files for my Arch Linux setup.
 
 ## Software and Themes
 
-You can check out the [themes](docs/THEMES.md) I currently use, as well as any
-current [software](docs/SOFTWARE.md).
+You can check out the [themes](docs/themes.md) I currently use, as well as any
+current [software](docs/software.md).
  
 ## Screenshot
 
