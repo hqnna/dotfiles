@@ -12,6 +12,7 @@ window-padding-x = 10
 window-padding-y = 10
 resize-overlay = never
 
+shell-integration = zsh
 gtk-single-instance = true
 confirm-close-surface = false
 clipboard-write = allow
