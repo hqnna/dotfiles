@@ -1,5 +1,5 @@
 {
-  "theme": "JetBrains New Dark",
+  "theme": "Fleet Dark",
   "base_keymap": "VSCode",
   "features": { "inline_completion_provider": "none" },
   "buffer_font_family": "Berkeley Mono",
