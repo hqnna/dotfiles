@@ -1,0 +1,95 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "display": {
+    "separator": " → ",
+    "constants": [
+      "┌──────────────────────────────────┐",
+      "└──────────────────────────────────┘",
+    ],
+  },
+  "modules": [
+    {
+      "type": "title",
+      "format": "{#blue}{user-name}{#reset_}@{#blue}{host-name}",
+    },
+    {
+      "type": "custom",
+      "format": "{#blue}{$1}",
+    },
+    {
+      "type": "os",
+      "key": "{#blue}│  Distro",
+      "format": "{pretty-name}            {#blue}│",
+    },
+    {
+      "type": "kernel",
+      "key": "{#blue}│  Kernel",
+      "format": "{release}        {#blue}│",
+    },
+    {
+      "type": "packages",
+      "key": "{#blue}│  Packages",
+      "format": "{pacman}                 {#blue}│",
+    },
+    {
+      "type": "custom",
+      "format": "{#blue}{$2}",
+    },
+    {
+      "type": "custom",
+      "format": "{#magenta}{$1}",
+    },
+    {
+      "type": "de",
+      "key": "{#magenta}│  Desktop",
+      "format": "{pretty-name} {version}           {#magenta}│",
+    },
+    {
+      "type": "wm",
+      "key": "{#magenta}│  Manager",
+      "format": "{pretty-name} ({protocol-name})     {#magenta}│",
+    },
+    {
+      "type": "terminal",
+      "key": "{#magenta}│  Terminal",
+      "format": "{process-name} {version}       {#magenta}│",
+    },
+    {
+      "type": "custom",
+      "format": "{#magenta}{$2}",
+    },
+    {
+      "type": "custom",
+      "format": "{#yellow}{$1}",
+    },
+    {
+      "type": "cpu",
+      "key": "{#yellow}│  CPU",
+      "format": "{name}        {#yellow}│",
+    },
+    {
+      "type": "memory",
+      "key": "{#yellow}│  Memory",
+      "format": "{used} / {total} {#yellow}│",
+    },
+    {
+      "type": "disk",
+      "key": "{#yellow}│  Storage",
+      "format": "{size-used} / {size-total} {#yellow}│",
+    },
+    {
+      "type": "display",
+      "key": "{#yellow}│ 󰍹 Display",
+      "format": "{width}x{height} @ {refresh-rate} Hz   {#yellow}│",
+    },
+    {
+      "type": "custom",
+      "format": "{#yellow}{$2}",
+    },
+    {
+      "type": "colors",
+      "symbol": "square",
+      "key": "  {#yellow} Colors",
+    },
+  ],
+}

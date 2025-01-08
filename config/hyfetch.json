@@ -9,7 +9,7 @@
         "fore_back": null
     },
     "backend": "fastfetch",
-    "args": "-c paleofetch",
+    "args": null,
     "distro": null,
     "pride_month_shown": [],
     "pride_month_disable": false
