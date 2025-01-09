@@ -1,5 +1,5 @@
 {
-  "theme": "Fleet Dark",
+  "theme": "Min Dark",
   "base_keymap": "VSCode",
   "features": { "inline_completion_provider": "none" },
   "buffer_font_family": "Berkeley Mono",
