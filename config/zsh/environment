@@ -13,7 +13,6 @@ export SQLITE_HISTORY="$XDG_STATE_HOME/sqlite_history"
 export LESSHISTFILE="$XDG_STATE_HOME/less_history"
 export MISE_CONFIG_DIR="$XDG_CONFIG_HOME/mise"
 export CUDA_CACHE_PATH="$XDG_CACHE_HOME/nv"
-export CARGO_HOME="$XDG_DATA_HOME/cargo"
 export GNUPGHOME="$XDG_DATA_HOME/gnupg"
 export GOPATH="$XDG_DATA_HOME/golang"
 
