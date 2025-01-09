@@ -10,6 +10,6 @@ This repository contains the configuration files for my Arch Linux setup.
 You can check out the [themes](docs/themes.md) I currently use, as well as any
 current [software](docs/software.md).
  
-## Screenshot
+## Desktop Screenshot
 
 ![desktop screenshot](images/desktop.png)
