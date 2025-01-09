@@ -1,3 +1,5 @@
 [settings.rust]
+# This shouldn't be necessary, but fuck me I guess.
+# The rust plugin ignores environment variables.
 rustup_home = "/home/hanna/.local/share/rustup"
 cargo_home = "/home/hanna/.local/share/cargo"
