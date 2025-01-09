@@ -1,5 +1,3 @@
-[settings]
-
 [settings.rust]
 rustup_home = "/home/hanna/.local/share/rustup"
 cargo_home = "/home/hanna/.local/share/cargo"
