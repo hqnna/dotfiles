@@ -41,7 +41,7 @@
     },
     {
       "type": "de",
-      "key": "{#magenta}│  Desktop",
+      "key": "{#magenta}│  Desktop",
       "format": "{pretty-name} {version}           {#magenta}│",
     },
     {
@@ -69,7 +69,7 @@
     },
     {
       "type": "memory",
-      "key": "{#yellow}│  Memory",
+      "key": "{#yellow}│  Memory",
       "format": "{used} / {total} {#yellow}│",
     },
     {
