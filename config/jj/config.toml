@@ -22,9 +22,17 @@ coalesce(
 '''
 
 [template-aliases]
+'format_short_id(id)' = 'id.shortest(7).prefix() ++ "[" ++ id.shortest(7).rest() ++ "]"'
 'format_short_signature(signature)' = 'signature.email().local()'
 'format_timestamp(timestamp)' = 'timestamp.ago()'
-'format_short_id(id)' = 'id.shortest(7)'
+
+builtin_log_compact = '''
+concat(
+  format_short_id(change_id),
+  " " ++ format_short_signature(author),
+  " " ++ coalesce(description, label(if(empty, "empty"), description_placeholder)),
+)
+'''
 
 [git]
 push-bookmark-prefix = "hanna/"
