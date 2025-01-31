@@ -29,7 +29,7 @@
     <vcpupin vcpu="14" cpuset="30"/>
     <vcpupin vcpu="15" cpuset="31"/>
     <emulatorpin cpuset="6-7"/>
-    <iothreadpin iothread="1" cpuset="6-7"/>
+    <iothreadpin iothread="1" cpuset="6-7,22-23"/>
   </cputune>
   <sysinfo type="smbios">
     <bios>
@@ -93,6 +93,7 @@
   </features>
   <cpu mode="host-passthrough" check="none" migratable="on">
     <topology sockets="1" dies="1" clusters="1" cores="8" threads="2"/>
+    <cache mode="passthrough"/>
     <feature policy="require" name="topoext"/>
   </cpu>
   <clock offset="localtime">
