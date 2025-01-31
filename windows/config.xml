@@ -12,14 +12,24 @@
   <vcpu placement="static">16</vcpu>
   <iothreads>1</iothreads>
   <cputune>
-    <vcpupin vcpu="0" cpuset="1"/>
-    <vcpupin vcpu="1" cpuset="2"/>
-    <vcpupin vcpu="2" cpuset="3"/>
-    <vcpupin vcpu="3" cpuset="4"/>
-    <vcpupin vcpu="4" cpuset="5"/>
-    <vcpupin vcpu="5" cpuset="6"/>
-    <vcpupin vcpu="6" cpuset="7"/>
-    <vcpupin vcpu="7" cpuset="8"/>
+    <vcpupin vcpu="0" cpuset="8"/>
+    <vcpupin vcpu="1" cpuset="9"/>
+    <vcpupin vcpu="2" cpuset="10"/>
+    <vcpupin vcpu="3" cpuset="11"/>
+    <vcpupin vcpu="4" cpuset="12"/>
+    <vcpupin vcpu="5" cpuset="13"/>
+    <vcpupin vcpu="6" cpuset="14"/>
+    <vcpupin vcpu="7" cpuset="15"/>
+    <vcpupin vcpu="8" cpuset="24"/>
+    <vcpupin vcpu="9" cpuset="25"/>
+    <vcpupin vcpu="10" cpuset="26"/>
+    <vcpupin vcpu="11" cpuset="27"/>
+    <vcpupin vcpu="12" cpuset="28"/>
+    <vcpupin vcpu="13" cpuset="29"/>
+    <vcpupin vcpu="14" cpuset="30"/>
+    <vcpupin vcpu="15" cpuset="31"/>
+    <emulatorpin cpuset="6-7"/>
+    <iothreadpin iothread="1" cpuset="6-7"/>
   </cputune>
   <sysinfo type="smbios">
     <bios>
@@ -83,7 +93,7 @@
   </features>
   <cpu mode="host-passthrough" check="none" migratable="on">
     <topology sockets="1" dies="1" clusters="1" cores="8" threads="2"/>
-    <cache mode="passthrough"/>
+    <feature policy="require" name="topoext"/>
   </cpu>
   <clock offset="localtime">
     <timer name="rtc" present="no" tickpolicy="catchup"/>
@@ -102,7 +112,7 @@
   <devices>
     <emulator>/usr/bin/qemu-system-x86_64</emulator>
     <disk type="file" device="disk">
-      <driver name="qemu" type="qcow2" cache="none" discard="unmap"/>
+      <driver name="qemu" type="qcow2" cache="none" io="native" discard="unmap" iothread="1" queues="8"/>
       <source file="/var/lib/libvirt/disks/windows.qcow2"/>
       <target dev="vda" bus="virtio"/>
       <serial>048a3389-c5cb-4b2d-923b-d1d96dfef0e2</serial>
