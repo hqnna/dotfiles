@@ -29,7 +29,7 @@ coalesce(
 builtin_log_compact = '''
 concat(
   format_short_id(change_id),
-  " " ++ format_short_signature(author),
+  " " ++ separate(" ", format_short_signature(author), local_bookmarks),
   " " ++ coalesce(description, label(if(empty, "empty"), description_placeholder)),
 )
 '''
