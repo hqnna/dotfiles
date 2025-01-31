@@ -16,6 +16,7 @@ editor = "helix"
 [templates]
 log_node = '''
 coalesce(
+  if(!self, label("elided", "▪")),
   if(current_working_copy, "●"),
   if(immutable, "⊗", "○"),
 )
