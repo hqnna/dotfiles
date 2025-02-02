@@ -128,7 +128,7 @@ be straight forward, and you just need to add both of the devices on that PCI bu
 
 ```
 0000:0B:00:0 NVIDIA Corporation GA102 [GeForce RTX 3080 Lite Hash Rate]
-0000:0B:00:0 NVIDIA Corporation GA102 [GeForce RTX 3080 Lite Hash Rate]
+0000:0B:00:1 NVIDIA Corporation GA102 High Definition Audio Controller
 ```
 
 After adding both of the components you will want to modify their XML and add a line
