@@ -18,6 +18,7 @@ export GOPATH="$XDG_DATA_HOME/golang"
 
 # Path Environment Variable
 export PATH="$PATH:$HOME/.local/bin"
+hash -d win=/mnt/c/Users/Hanna
 
 # Environment Variables
 export COLORTERM="truecolor"
