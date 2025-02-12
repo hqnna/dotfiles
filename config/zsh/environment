@@ -24,9 +24,14 @@ hash -d win=/mnt/c/Users/Hanna
 export COLORTERM="truecolor"
 export EDITOR="helix"
 
+# Helix Command Alias
+function hx() {
+  $(command -v helix) "$@"
+  printf '\033[5 q'
+}
+
 # Command Aliases
 alias paru="paru --color=always"
-alias hx="helix"
 alias cat="bat"
 alias ls="lsd"
 
