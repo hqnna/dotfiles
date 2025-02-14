@@ -1,5 +1,16 @@
+[settings]
+experimental = true
+
 [settings.rust]
 # This shouldn't be necessary, but fuck me I guess.
 # The rust plugin ignores environment variables.
 rustup_home = "/home/hanna/.local/share/rustup"
 cargo_home = "/home/hanna/.local/share/cargo"
+
+[settings.swift]
+# Since we're using swift on a distro that isn't natively
+# supported, we need to use some workarounds to get it to
+# actually work, including manually symlinking ncurses to
+# the file `libncurses.so.6` in /usr/lib, this is pain.
+gpg_verify = false
+platform = "ubi9"
