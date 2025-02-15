@@ -21,6 +21,7 @@ export PATH="$PATH:$HOME/.local/bin"
 hash -d win=/mnt/c/Users/Hanna
 
 # Environment Variables
+export PODMAN_IGNORE_CGROUPSV1_WARNING="1"
 export COLORTERM="truecolor"
 export EDITOR="helix"
 
