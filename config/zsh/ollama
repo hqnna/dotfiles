@@ -1,7 +1,7 @@
 #!/bin/zsh
 
 if [ ! -z "$(command -v ollama)" ] && [ -z "$(pgrep ollama)" ]; then
-  # Run ollama daemon in the background automatically if not started
+  # Automatically run the ollama server daemon and create data directory
   [ ! -d "$XDG_DATA_HOME/ollama" ] && mkdir -p "$XDG_DATA_HOME/ollama"
   nohup ollama serve &> $XDG_DATA_HOME/ollama/ollama.log &
 fi
