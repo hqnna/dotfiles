@@ -1,7 +1,14 @@
 #!/bin/zsh
 
+# The directory ollama data is stored
+OLLAMA_DATA="$XDG_DATA_HOME/ollama"
+
+# Check if ollama is installed, and if there is no running daemon
 if [ ! -z "$(command -v ollama)" ] && [ -z "$(pgrep ollama)" ]; then
-  # Automatically run the ollama server daemon and create data directory
-  [ ! -d "$XDG_DATA_HOME/ollama" ] && mkdir -p "$XDG_DATA_HOME/ollama"
-  nohup ollama serve &> $XDG_DATA_HOME/ollama/ollama.log &
+  # Make sure that the ollama data directory exists
+  [ ! -d "$OLLAMA_DATA" ] && mkdir -p "$OLLAMA_DATA"
+  # Delete previous ollama server daemon logs if one exists
+  [ -f "$OLLAMA_DATA/ollama.log" ] && rm -rf "$OLLAMA_DATA/ollama.log"
+  # Finally start up the ollama server daemon
+  nohup ollama serve &> $OLLAMA_DATA/ollama.log &
 fi
