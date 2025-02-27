@@ -2,6 +2,7 @@
 
 {
   imports = [
+    ./services/podman.nix
     ./system/environment.nix
     ./system/networking.nix
     ./system/settings.nix
