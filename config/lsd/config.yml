@@ -1,6 +1,0 @@
-classic: false
-blocks: [permission, user, group, date, size, name]
-color: { when: always }
-icons: { when: never  }
-symlink-arrow: 󰁔
-size: short

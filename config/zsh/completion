@@ -1,5 +1,0 @@
-#!/bin/zsh
-
-autoload -U compinit
-compinit -d "$XDG_STATE_HOME/zsh/completion"
-
