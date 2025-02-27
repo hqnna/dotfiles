@@ -6,23 +6,21 @@
 
     settings = {
       preset = "transgender";
+      light_dark = "dark";      
       mode = "rgb";
-      light_dark = "dark";
-      lightness = {
-      };
+      
+      lightness = {};
+      
       color_align = {
         mode = "horizontal";
-        custom_colors = [
-
-        ];
+        custom_colors = [];
         fore_back = null;
       };
-      backend = "fastfetch";
+
       args = null;
       distro = null;
-      pride_month_shown = [
-
-      ];
+      backend = "fastfetch";
+      pride_month_shown = [];
       pride_month_disable = false;
     };
   };
