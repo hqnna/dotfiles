@@ -7,4 +7,4 @@ This repository contains the configuration files for my Arch Linux WSL setup.
 
 ## Terminal Screenshot
 
-![screenshot](https://transpri.de/i/qmiibh9lom.png)
+![screenshot](https://transpri.de/i/0zao6ihvditdn8.png)
