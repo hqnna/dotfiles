@@ -13,6 +13,7 @@
       ./fastfetch.nix
       ./starship.nix
       ./hyfetch.nix
+      ./direnv.nix
       ./helix.nix
       ./shell.nix
       ./btop.nix
