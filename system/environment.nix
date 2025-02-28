@@ -12,6 +12,11 @@
   environment = {
     localBinInPath = true;
     memoryAllocator.provider = "scudo";
-    defaultPackages = with pkgs; [ wget helix zip unzip ];
+    defaultPackages = with pkgs; [
+      unzip
+      helix
+      wget
+      zip
+    ];
   };
 }

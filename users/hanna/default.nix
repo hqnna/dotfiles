@@ -24,10 +24,14 @@
       ./jj.nix
     ];
 
-    home.packages = with pkgs; [ git podman ];
-
     home.username = "hanna";
     home.homeDirectory = "/home/hanna";
     home.stateVersion = "24.11";
+
+    home.packages = with pkgs; [
+      podman
+      git
+      age
+    ];
   };
 }
