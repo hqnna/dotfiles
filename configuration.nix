@@ -12,5 +12,7 @@
     ./system/wsl.nix
   ];
 
+  home-manager.useGlobalPkgs = true;
+  home-manager.useUserPackages = true;
   system.stateVersion = "24.11";
 }

@@ -9,6 +9,7 @@
 
     settings.cores = 16;
     settings.max-jobs = 32;
+    settings.use-xdg-base-directories = true;
     settings.experimental-features = [
       "nix-command"
       "flakes"
