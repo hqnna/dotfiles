@@ -35,7 +35,7 @@
         {
           type = "packages";
           key = "  {#blue} Packages";
-          format = "{#blue} {#white}{nix-system}{#blue}  {#white}{nix-user}";
+          format = "{nix-system}";
         }
         {
           type = "custom";
